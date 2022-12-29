@@ -1,0 +1,108 @@
+INFO:root:Done loading variables found in /variables folder
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/vocab.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/merges.txt HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+INFO:root:Done downloading CLIP Tokenizer + Text Model
+INFO:root:Done loading variables found in /variables folder
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/vocab.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/merges.txt HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+INFO:root:Done downloading CLIP Tokenizer + Text Model
+INFO:root:Searching tensors in /variables folder
+INFO:root:Done loading tensors in /variables folder
+INFO:root:Downloading CLIP Tokenizer + Text Model...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/vocab.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/merges.txt HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+INFO:root:Done downloading CLIP Tokenizer + Text Model
+INFO:root:Searching tensors in /variables folder
+INFO:root:Done loading tensors in /variables folder
+INFO:root:Downloading CLIP Tokenizer + Text Model...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+INFO:root:Searching tensors in /variables folder
+INFO:root:Done loading tensors in /variables folder
+INFO:root:Downloading CLIP Tokenizer + Text Model...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/vocab.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/merges.txt HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+INFO:root:Done downloading CLIP Tokenizer + Text Model
+INFO:root:Searching tensors in /variables folder
+INFO:root:Done loading tensors in /variables folder
+INFO:root:Downloading CLIP Tokenizer + Text Model...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/vocab.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/merges.txt HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+INFO:root:Done downloading CLIP Tokenizer + Text Model
+INFO:root:Searching tensors in /variables folder
+INFO:root:Done loading tensors in /variables folder
+INFO:root:Downloading CLIP Tokenizer + Text Model...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/vocab.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/merges.txt HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+INFO:root:Done downloading CLIP Tokenizer + Text Model

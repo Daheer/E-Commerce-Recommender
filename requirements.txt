@@ -1,0 +1,8 @@
+torch
+numpy
+pandas
+fastapi
+transformers
+tqdm
+gdown
+ftfy
