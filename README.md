@@ -46,7 +46,7 @@ Follow the code [here](#prereq), it should launch a server in your localhost wit
 > localhost:8000/bought/1234
 
 # Demo
-<img src = 'images/demo1.gif'>
+<img src = 'images/demo.gif'>
 
 # References
 - [Learning Transferable Visual Models From Natural Language Supervision](https://scholar.google.com/scholar_lookup?arxiv_id=2103.00020)
