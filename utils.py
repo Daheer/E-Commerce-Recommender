@@ -20,9 +20,9 @@ else:
   
   logging.info('Tensors not found, downloading from Google Drive..')
 
-  gdown.download('', 'variables/weights.pt', quiet = True)
-  gdown.download('', 'variables/df.pt', quiet = True)
-  gdown.download('', 'variables/all_items.pt', quiet = True)
+  gdown.download('https://drive.google.com/uc?export=download&id=1OqBpVHvm32kZh_47nYJ3D2EN6fTnbKIY', 'variables/weights.pt', quiet = True)
+  gdown.download('https://drive.google.com/uc?export=download&id=1IzTUuk6blrdMgrbDGMvLPfRyoHtgKK69', 'variables/df.pt', quiet = True)
+  gdown.download('https://drive.google.com/uc?export=download&id=1-CXOf71ubA51MBhPpXoa32qZlTrp0eGG', 'variables/all_items.pt', quiet = True)
 
 weights = torch.load('variables/weights.pt', map_location = torch.device('cpu'))
 df = torch.load('variables/df.pt', map_location = torch.device('cpu'))
