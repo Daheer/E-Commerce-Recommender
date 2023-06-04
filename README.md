@@ -13,13 +13,9 @@
 - [FastAPI](https://fastapi.tiangolo.com/)
 - Others
 
-# Prerequisites and Installation {#prereq}
+# Prerequisites and Installation
 - Python
 ```
-python venv env_name
-cd env_name
-Scripts/activate
-python -m pip --upgrade pip
 python -m pip install -r requirements.txt
 ```
 - FastAPI
@@ -42,7 +38,7 @@ uvicorn main:app
     └─── model_architecture.png
 ```
 # Usage
-Follow the code [here](#prereq), it should launch a server in your localhost with some port. Head over to "bought" page and index into the item bought. Example:
+Running the code mentioned above should launch a server in your localhost with some port. Head over to "bought" page and supply an index. Example:
 > localhost:8000/bought/1234
 
 # Demo
