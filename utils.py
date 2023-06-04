@@ -32,8 +32,8 @@ logging.info('Done loading tensors in /variables folder')
 
 logging.info('Downloading CLIP Tokenizer + Text Model...')
 
-tokenizer = CLIPTokenizer.from_pretrained("openai/clip-vit-large-patch14")
-text_encoder = CLIPTextModel.from_pretrained("openai/clip-vit-large-patch14")
+tokenizer = CLIPTokenizer.from_pretrained("openai/clip-vit-base-patch32")
+text_encoder = CLIPTextModel.from_pretrained("openai/clip-vit-base-patch32")
 
 logging.info('Done downloading CLIP Tokenizer + Text Model')
 
