@@ -12,13 +12,13 @@ warnings.filterwarnings('ignore')
 torch_device = 'cpu'
 logging.basicConfig(filename='debug.log', encoding='utf-8', level=logging.DEBUG)
 
-logging.info('Searching tensors in /variables folder')
+print('[INFO] Searching tensors in /variables folder')
 
 if os.path.exists('./variables/weights.pt') & os.path.exists('./variables/all_items.pt') & os.path.exists('./variables/df.pt'):
   pass
 else:
   
-  logging.info('Tensors not found, downloading from Google Drive..')
+  print('[INFO] Tensors not found, downloading from Google Drive..')
 
   gdown.download('https://drive.google.com/uc?export=download&id=1OqBpVHvm32kZh_47nYJ3D2EN6fTnbKIY', 'variables/weights.pt', quiet = True)
   gdown.download('https://drive.google.com/uc?export=download&id=1IzTUuk6blrdMgrbDGMvLPfRyoHtgKK69', 'variables/df.pt', quiet = True)
@@ -28,14 +28,14 @@ weights = torch.load('variables/weights.pt', map_location = torch.device('cpu'))
 df = torch.load('variables/df.pt', map_location = torch.device('cpu'))
 all_items = torch.load('variables/all_items.pt', map_location = torch.device('cpu'))
 
-logging.info('Done loading tensors in /variables folder')
+print('[INFO] Done loading tensors in /variables folder')
 
-logging.info('Downloading CLIP Tokenizer + Text Model...')
+print('[INFO] Downloading CLIP Tokenizer + Text Model...')
 
 tokenizer = CLIPTokenizer.from_pretrained("openai/clip-vit-base-patch32")
 text_encoder = CLIPTextModel.from_pretrained("openai/clip-vit-base-patch32")
 
-logging.info('Done downloading CLIP Tokenizer + Text Model')
+print('[INFO] Done downloading CLIP Tokenizer + Text Model')
 
 def get_embeds(x):
   token = tokenizer(x, padding = "max_length", max_length = tokenizer.model_max_length, truncation = True, return_tensors = "pt")
@@ -53,7 +53,8 @@ def search_similar_items(idx: int, kind: str, all_items = all_items, weights = w
     return scores
 
 def idx_to_desc(idx: int, df = df):
+  df['UnitPrice'] = df['UnitPrice'].apply(lambda x: round(x, 2))
   if isinstance(idx, torch.Tensor):
-    return df.iloc[idx.cpu().numpy().reshape(-1)]['Description']
+    return df.iloc[idx.cpu().numpy().reshape(-1)][['Description', 'UnitPrice']].values.tolist()
   else:
-    return df.iloc[idx]['Description']
+    return df.iloc[idx][['Description', 'UnitPrice']].values.tolist()
